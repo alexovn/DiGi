@@ -546,6 +546,7 @@ a {
 .services__item:active .services__item-link {
   opacity: 1;
   height: auto;
+  visibility: visible;
   overflow: visible;
 }
 
@@ -581,6 +582,7 @@ a {
   opacity: 0;
   height: 0;
   overflow: hidden;
+  visibility: hidden;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;

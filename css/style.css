@@ -628,7 +628,8 @@ a {
   margin: 0;
 }
 
-.projects__item:hover .projects__item-inner {
+.projects__item:hover,
+.projects__item:focus .projects__item-inner {
   opacity: 1;
 }
 

@@ -539,26 +539,18 @@ a {
 }
 
 .services__item:hover .services__item-text,
-.services__item:hover .services__item-link,
-.services__item:focus .services__item-text,
-.services__item:focus .services__item-link,
-.services__item:active .services__item-text,
-.services__item:active .services__item-link {
+.services__item:hover .services__item-link {
   opacity: 1;
   height: auto;
   visibility: visible;
   overflow: visible;
 }
 
-.services__item:hover .services__item-title,
-.services__item:focus .services__item-title,
-.services__item:active .services__item-title {
+.services__item:hover .services__item-title {
   margin-bottom: 21px;
 }
 
-.services__item:hover .services__item-inner,
-.services__item:focus .services__item-inner,
-.services__item:active .services__item-inner {
+.services__item:hover .services__item-inner {
   border: 4px solid #2B4074;
   margin: 18px;
   padding: 25px 20px 5px;
@@ -630,8 +622,7 @@ a {
   margin: 0;
 }
 
-.projects__item:hover,
-.projects__item:focus .projects__item-inner {
+.projects__item:hover .projects__item-inner {
   opacity: 1;
 }
 
@@ -1431,9 +1422,7 @@ a {
     min-height: 334px;
   }
 
-  .services__item:hover .services__item-inner,
-  .services__item:focus .services__item-inner,
-  .services__item:active .services__item-inner {
+  .services__item:hover .services__item-inner {
     padding: 35px 66px 5px;
     min-height: 288px;
   }
@@ -1592,9 +1581,7 @@ a {
     border-right: none;
   }
 
-  .services__item:hover .services__item-inner,
-  .services__item:focus .services__item-inner,
-  .services__item:active .services__item-inner {
+  .services__item:hover .services__item-inner {
     padding: 25px 9px;
   }
 
@@ -1747,9 +1734,7 @@ a {
     height: 273px;
   }
 
-  .services__item:hover .services__item-inner,
-  .services__item:focus .services__item-inner,
-  .services__item:active .services__item-inner {
+  .services__item:hover .services__item-inner {
     min-height: 255px;
     padding: 20px 8px;
   }

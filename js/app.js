@@ -43,3 +43,7 @@ $(function() {
         $news__content.masonry('layout');
       });
 })
+
+if('ontouchstart' in window) {
+    document.addEventListener('touchstart', function(e){}, true);
+}

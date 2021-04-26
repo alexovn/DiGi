@@ -1451,6 +1451,10 @@ footer {
     border-left: none;
   }
 
+  .footer__social-link:hover {
+    background-color: #1e2d52;
+  }
+
   .footer__social-link:last-child {
     border-right: none;
   }
